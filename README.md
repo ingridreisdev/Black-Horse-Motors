@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <strong>Concessionária premium fictícia, especializada em veículos de luxo, esportivos e supercarros. .</strong>
+  <strong>Concessionária premium fictícia, especializada em veículos de luxo, esportivos e supercarros.</strong>
 </p>
 
 <p align="center">
@@ -17,17 +17,14 @@
 
 ## 🚀 Sobre o projeto
 
-O Banco Grid foi desenvolvido com o objetivo de simular o funcionamento de um sistema bancário fictício. Durante o desenvolvimento, foram utilizados recursos como modularização do código, structs, funções, ponteiros, manipulações de arquivos e menus interativos, buscando reproduzir a experiência de um caixa eletrônico. O programa é capaz de realizar operações como criação de contas, consulta de saldo, dépositos, saques e extrato.
-
-## Inspiração do nome
-
-O nome GRID foi inspirado no meu próprio nome, ingrid! 
-Queria que o projeto tivesse uma identidade própria e um toque de originalidade, em vez de usar um nome genérico.
+A Black Horse Motors é um projeto acadêmico desenvolvido para a disciplina de Desenvolvimento Web.
+O site permite que o usuário navegue entre as páginas, consulte o estoque de veículos e vizualize informações detalhadas sobre cada carro.
+O projeto foi desenvolvido em grupo, utilizando tecnologias de desenvolvimento web e banco de dados.
 
 ## 🛠️ Tecnologias Utilizadas
 
 <p align="left">
-  <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="https://skillicons.dev/icons?i=c" height="45" alt="C Language" /></a>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="https://skillicons.dev/icons?i=c" height="45" alt="html" /></a>
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="VS Code" /></a>
   <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git" height="45" alt="Git" /></a>
 </p>
