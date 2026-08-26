@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <strong>Aplicação que simula o funcionamento de um caixa eletrônico.</strong>
+  <strong>Concessionária premium fictícia, especializada em veículos de luxo, esportivos e supercarros. .</strong>
 </p>
 
 <p align="center">
