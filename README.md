@@ -21,6 +21,23 @@ A Black Horse Motors é um projeto acadêmico desenvolvido para a disciplina de 
 O site permite que o usuário navegue entre as páginas, consulte o estoque de veículos e vizualize informações detalhadas sobre cada carro.
 O projeto foi desenvolvido por mim, utilizando tecnologias de desenvolvimento web.
 
+## Prints do site
+
+### Página inicial
+![Página inicial](execucao/pageinicial.jpeg)
+
+### Estoque
+![Estoque de veículos](execucao/estoque.jpeg)
+
+### Detalhes do veículo
+![Detalhes do veículo](execucao/veiculo.jpeg)
+
+### Sobre
+![Página Sobre](execucao/sobre.jpeg)
+
+### Fale Conosco
+![Fale Conosco](execucao/faleConosco.jpeg)
+
 ## 🛠️ Tecnologias Utilizadas
 
 <p align="left">
