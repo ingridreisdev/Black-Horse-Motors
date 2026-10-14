@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background: #000;
+    height: 72px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo img {
+    height: 36px;
+    width: auto;
+}
+
+.logo span {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar nav a {
+    color: #fff;
+    font-size: 17px;
+    transition: opacity 0.2s;
+}
+
+.navbar nav a:hover {
+    opacity: 0.7;
+}
+
+.navbar nav .btn-contato {
+    background: #1a1a8c;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 50px;
+}
+
+.navbar nav .btn-contato:hover {
+    background: #2a2ab0;
+    opacity: 1;
+}
+
+.veiculo {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 24px 80px;
+}
+
+.voltar {
+    display: inline-block;
+    font-size: 34px;
+    line-height: 1;
+    color: #999;
+    margin-bottom: 14px;
+    transition: color 0.2s;
+}
+
+.voltar:hover {
+    color: #000;
+}
+
+.detalhe {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 12px;
+    align-items: start;
+}
+
+.foto-principal {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1.05;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.foto-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.seta-galeria {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+.seta-galeria.anterior {
+    left: 4px;
+}
+
+.seta-galeria.proximo {
+    right: 4px;
+}
+
+.miniaturas {
+    display: flex;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.miniatura {
+    width: 110px;
+    height: 56px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.miniatura:hover,
+.miniatura.ativa {
+    opacity: 1;
+}
+
+.info {
+    background: #efefef;
+    border-radius: 8px;
+    padding: 20px 24px 28px;
+}
+
+.marca {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.modelo {
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.divisor-curto {
+    width: 76px;
+    margin-top: 14px;
+    border: none;
+    border-top: 2px solid #888;
+}
+
+.divisor-longo {
+    margin: 14px 0;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+/* especificações em 2 colunas, com linha vertical no meio */
+.specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 14px;
+    position: relative;
+    padding: 4px 0;
+}
+
+.specs::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #bbb;
+}
+
+.spec {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.spec:nth-child(odd) {
+    padding-left: 6px;
+}
+
+.spec:nth-child(even) {
+    padding-left: 18px;
+}
+
+.spec-label {
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.spec-valor {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0a0a6b;
+}
+
+.descricao h2 {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.descricao p {
+    font-size: 9px;
+    line-height: 1.5;
+    color: #222;
+}
+
+/* valor e botão */
+.valor {
+    margin-top: 22px;
+}
+
+.valor-label {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.preco {
+    margin-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0a0a6b;
+}
+
+.btn-fale {
+    display: inline-block;
+    margin: 12px 0 0 36px;
+    background: #0a0a6b;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: background 0.2s;
+}
+
+.btn-fale:hover {
+    background: #1a1a8c;
+}
+
+/* ========== RESPONSIVO ========== */
+@media (max-width: 800px) {
+    .navbar {
+        padding: 0 16px;
+    }
+
+    .navbar nav ul {
+        gap: 14px;
+    }
+
+    .navbar nav a {
+        font-size: 14px;
+    }
+
+    .navbar nav .btn-contato {
+        padding: 10px 16px;
+    }
+
+    .logo span {
+        display: none;
+    }
+
+    .detalhe {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque | Black Horse Motors</title>
+        <link rel="stylesheet" href="../css/estoque.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="../images/logo/logo.png" alt="Black Horse Motors">
+            <span>BLACK HORSE MOTORS</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="estoque.html" class="active">Estoque</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="https://chat.whatsapp.com/F3vLkzlSKAaBR3BbrdPc7i" target="_blank" class="btn-contato">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="estoque">
+
+        <section class="estoque-titulo">
+            <h1>ESTOQUE</h1>
+            <p>UMA SELEÇÃO EXCLUSIVA DE AUTOMÓVEIS EXCEPCIONAIS.</p>
+            <hr class="divisor">
+        </section>
+
+        <nav class="filtros">
+            <button class="filtro active" data-categoria="todos">TODOS</button>
+            <button class="filtro" data-categoria="esportivos">ESPORTIVOS</button>
+            <button class="filtro" data-categoria="luxo">LUXO</button>
+            <button class="filtro" data-categoria="suv">SUV</button>
+            <button class="filtro" data-categoria="supercarros">SUPERCARROS</button>
+        </nav>
+
+        <section class="grid-veiculos">
+
+            <article class="card" data-categoria="esportivos">
+                <div class="card-imagem">
+                    <img src="../images/ferrari-f8-tributo/ferrarif8.jpeg" alt="Ferrari F8">
+                </div>
+                <div class="card-info">
+                    <span class="marca">FERRARI</span>
+                    <h2 class="modelo">F8</h2>
+                    <div class="detalhes">
+                        <span class="ano">2024</span>
+                        <span class="km">6.100 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 4.200.000</p>
+                    <a href="veiculo.html?id=ferrari-f8" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="suv">
+                <div class="card-imagem">
+                    <img src="../images/audi-rsq8/audirsq8.jpeg" alt="Audi RSQ8">
+                </div>
+                <div class="card-info">
+                    <span class="marca">AUDI</span>
+                    <h2 class="modelo">RSQ8</h2>
+                    <div class="detalhes">
+                        <span class="ano">2025</span>
+                        <span class="km">1.400 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 1.600.000</p>
+                    <a href="veiculo.html?id=audi-rsq8" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="suv">
+                <div class="card-imagem">
+                    <img src="../images/ferrari-purosangue/purosangue.jpeg" alt="Ferrari Purosangue">
+                </div>
+                <div class="card-info">
+                    <span class="marca">FERRARI</span>
+                    <h2 class="modelo">PUROSANGUE</h2>
+                    <div class="detalhes">
+                        <span class="ano">2025</span>
+                        <span class="km">7.000 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 7.900.000</p>
+                    <a href="veiculo.html?id=ferrari-purosangue" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="suv">
+                <div class="card-imagem">
+                    <img src="../images/lambo-urus/lambo-uruss.jpeg" alt="Lamborghini Urus">
+                </div>
+                <div class="card-info">
+                    <span class="marca">LAMBORGHINI</span>
+                    <h2 class="modelo">URUS</h2>
+                    <div class="detalhes">
+                        <span class="ano">2024</span>
+                        <span class="km">15.200 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 3.400.000</p>
+                    <a href="veiculo.html?id=lambo-urus" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="suv">
+                <div class="card-imagem">
+                    <img src="../images/mercedes-amg-g63/merceg63.jpeg" alt="Mercedes-AMG G63">
+                </div>
+                <div class="card-info">
+                    <span class="marca">MERCEDES-BENZ</span>
+                    <h2 class="modelo">AMG G63</h2>
+                    <div class="detalhes">
+                        <span class="ano">2025</span>
+                        <span class="km">11.200 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 2.390.000</p>
+                    <a href="veiculo.html?id=mercedes-amg-g63" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="esportivos">
+                <div class="card-imagem">
+                    <img src="../images/lamboevo/huracanevo.jpeg" alt="Lamborghini Huracán Evo">
+                </div>
+                <div class="card-info">
+                    <span class="marca">LAMBORGHINI</span>
+                    <h2 class="modelo">HURACÁN EVO</h2>
+                    <div class="detalhes">
+                        <span class="ano">2023</span>
+                        <span class="km">4.000 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 3.500.000</p>
+                    <a href="veiculo.html?id=lambo-huracan-evo" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="suv">
+                <div class="card-imagem">
+                    <img src="../images/cayenne/cayenne.jpeg" alt="Porsche Cayenne Turbo GT">
+                </div>
+                <div class="card-info">
+                    <span class="marca">PORSCHE</span>
+                    <h2 class="modelo">CAYENNE TURBO GT</h2>
+                    <div class="detalhes">
+                        <span class="ano">2026</span>
+                        <span class="km">0 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 1.540.000</p>
+                    <a href="veiculo.html?id=porsche-cayenne-turbo-gt" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="esportivos">
+                <div class="card-imagem">
+                    <img src="../images/bmw/bmww.jpeg" alt="BMW M4 COMPETITION">
+                </div>
+                <div class="card-info">
+                    <span class="marca">BMW</span>
+                    <h2 class="modelo">M4 COMPETITION</h2>
+                    <div class="detalhes">
+                        <span class="ano">2025</span>
+                        <span class="km">6.000 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 915.000</p>
+                    <a href="veiculo.html?id=bmw-m4-competition" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+            <article class="card" data-categoria="supercarros">
+                <div class="card-imagem">
+                    <img src="../images/bugatti/bugattichiron.jpeg" alt="Bugatti Chiron">
+                </div>
+                <div class="card-info">
+                    <span class="marca">BUGATTI</span>
+                    <h2 class="modelo">CHIRON</h2>
+                    <div class="detalhes">
+                        <span class="ano">2022</span>
+                        <span class="km">2.000 KM</span>
+                    </div>
+                    <hr class="linha">
+                    <p class="preco">R$ 50.000.000</p>
+                    <a href="veiculo.html?id=bugatti-chiron" class="ver-detalhes">VER DETALHES <span class="seta">→</span></a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+    <script src="../javascript/estoque.js"></script>
+</body>
+</html>
