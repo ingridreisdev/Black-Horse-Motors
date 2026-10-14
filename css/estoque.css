@@ -1,0 +1,271 @@
+/* ========== RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+    background: #000;
+    height: 72px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo img {
+    height: 36px;
+    width: auto;
+}
+
+.logo span {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar nav a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    transition: opacity 0.2s;
+}
+
+.navbar nav a:hover {
+    opacity: 0.7;
+}
+
+.navbar nav .btn-contato {
+    background: #1a1a8c;
+    color: #fff;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 50px;
+    transition: background 0.2s;
+}
+
+.navbar nav .btn-contato:hover {
+    background: #2a2ab0;
+    opacity: 1;
+}
+
+/* ========== TÍTULO ========== */
+.estoque {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 24px 80px;
+}
+
+.estoque-titulo {
+    text-align: center;
+}
+
+.estoque-titulo h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.estoque-titulo p {
+    margin-top: 22px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.divisor {
+    width: 60px;
+    margin: 18px auto 0;
+    border: none;
+    border-top: 1px solid #555;
+}
+
+/* ========== FILTROS ========== */
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+    margin: 45px 0 70px;
+}
+
+.filtro {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #000;
+    padding-bottom: 6px;
+    border-bottom: 1px solid transparent;
+}
+
+.filtro:hover {
+    color: #0a0a6b;
+}
+
+.filtro.active {
+    color: #0a0a6b;
+    border-bottom: 1px solid #555;
+}
+
+/* ========== GRID ========== */
+.grid-veiculos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* ========== CARD ========== */
+.card {
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-imagem {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+    display: block;
+    transition: transform 0.4s;
+}
+
+.card:hover .card-imagem img {
+    transform: scale(1.05);
+}
+
+.card-info {
+    padding: 14px 18px 18px;
+}
+
+.marca {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #222;
+}
+
+.modelo {
+    margin-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.detalhes {
+    display: flex;
+    gap: 36px;
+    margin-top: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+
+.linha {
+    margin-top: 12px;
+    border: none;
+    border-top: 1px solid #888;
+}
+
+.preco {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0a0a6b;
+}
+
+.ver-detalhes {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.seta {
+    font-size: 20px;
+    font-weight: 700;
+    transition: transform 0.2s;
+}
+
+.ver-detalhes:hover .seta {
+    transform: translateX(5px);
+}
+
+/* ========== RESPONSIVO ========== */
+@media (max-width: 1000px) {
+    .grid-veiculos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        padding: 0 16px;
+    }
+    .navbar nav ul {
+        gap: 16px;
+    }
+    .navbar nav a {
+        font-size: 14px;
+    }
+    .logo span {
+        display: none;
+    }
+    .filtros {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .grid-veiculos {
+        grid-template-columns: 1fr;
+    }
+}
+.card.escondido {
+    display: none;
+}

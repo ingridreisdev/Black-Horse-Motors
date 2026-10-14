@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veículo | Black Horse Motors</title>
+    <link rel="stylesheet" href="../css/veiculo.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="../images/logo/logo.png" alt="Black Horse Motors">
+            <span>BLACK HORSE MOTORS</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="estoque.html">Estoque</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="https://chat.whatsapp.com/F3vLkzlSKAaBR3BbrdPc7i" target="_blank" class="btn-contato">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main class="veiculo">
+
+        <a href="estoque.html" class="voltar" aria-label="Voltar ao estoque">&#8249;</a>
+
+        <section class="detalhe">
+
+            <div class="galeria">
+                <div class="foto-principal">
+                    <button class="seta-galeria anterior" id="btnAnterior" aria-label="Foto anterior">&#10094;</button>
+                    <img id="fotoPrincipal" src="" alt="">
+                    <button class="seta-galeria proximo" id="btnProximo" aria-label="Próxima foto">&#10095;</button>
+                </div>
+                <div class="miniaturas" id="miniaturas"></div>
+            </div>
+
+            <div class="info">
+                <div class="info-topo">
+                    <span class="marca" id="marca"></span>
+                    <h1 class="modelo" id="modelo"></h1>
+                    <hr class="divisor-curto">
+                </div>
+
+                <hr class="divisor-longo">
+
+                <div class="specs">
+                    <div class="spec"><span class="spec-label">ANO</span><span class="spec-valor" id="ano"></span></div>
+                    <div class="spec"><span class="spec-label">COR</span><span class="spec-valor" id="cor"></span></div>
+                    <div class="spec"><span class="spec-label">KM</span><span class="spec-valor" id="km"></span></div>
+                    <div class="spec"><span class="spec-label">CARROCERIA</span><span class="spec-valor" id="carroceria"></span></div>
+                    <div class="spec"><span class="spec-label">CÂMBIO</span><span class="spec-valor" id="cambio"></span></div>
+                    <div class="spec"><span class="spec-label">COMBUSTÍVEL</span><span class="spec-valor" id="combustivel"></span></div>
+                </div>
+
+                <hr class="divisor-longo">
+
+                <div class="descricao">
+                    <h2>DESCRIÇÃO:</h2>
+                    <p id="descricao"></p>
+                </div>
+
+                <div class="valor">
+                    <span class="valor-label">VALOR</span>
+                    <p class="preco" id="preco"></p>
+                    <a href="https://chat.whatsapp.com/F3vLkzlSKAaBR3BbrdPc7i" target="_blank" class="btn-fale">FALE CONOSCO</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../javascript/carros.js"></script>
+    <script src="../javascript/veiculo.js"></script>
+</body>
+</html>
