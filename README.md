@@ -19,7 +19,7 @@
 
 A Black Horse Motors é um projeto acadêmico desenvolvido para a disciplina de Desenvolvimento Web.
 O site permite que o usuário navegue entre as páginas, consulte o estoque de veículos e vizualize informações detalhadas sobre cada carro.
-O projeto foi desenvolvido em grupo, utilizando tecnologias de desenvolvimento web e banco de dados.
+O projeto foi desenvolvido por mim, utilizando tecnologias de desenvolvimento web.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -28,7 +28,5 @@ O projeto foi desenvolvido em grupo, utilizando tecnologias de desenvolvimento w
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="VS Code" /></a>
   <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git" height="45" alt="Git" /></a>
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" height="45">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP Logo" height="40">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" height="45">
-  <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL Logo" height="45">
 </p>
