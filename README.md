@@ -17,7 +17,7 @@
 
 ## 🚀 Sobre o projeto
 
-A Black Horse Motors é um projeto acadêmico desenvolvido para a disciplina de Desenvolvimento Web.
+A Black Horse Motors é um projeto acadêmico pessoal desenvolvido por mim para a disciplina de Desenvolvimento Web.
 O site permite que o usuário navegue entre as páginas, consulte o estoque de veículos e vizualize informações detalhadas sobre cada carro.
 O projeto foi desenvolvido por mim, utilizando tecnologias de desenvolvimento web.
 
